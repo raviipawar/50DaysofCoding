@@ -3,10 +3,10 @@ package in.ds.examples;
 import java.util.LinkedList;
 
 public class QueueExample {
-    LinkedList queue;
+    LinkedList<Integer> queue;
 
     public QueueExample(){
-        queue = new LinkedList();
+        queue = new LinkedList<Integer>();
     }
     // Checking queue is empty
     public boolean isEmpty(){
